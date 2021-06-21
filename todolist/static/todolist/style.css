@@ -6,3 +6,10 @@ h1{
 .todo_completed {
     text-decoration-line: overline;
 }
+.input-group{
+    text-align: center;
+    font-size: 25px;
+}
+.btn{
+    color: khaki;
+}
