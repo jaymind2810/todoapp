@@ -7,5 +7,18 @@
     </head>
     <body>
         <h1>Hello World, Jaymin</h1>
+        <div>
+            <ul>
+                {% for todolist in todo_items %}
+                    {% if todolist.completed %}
+                        <li class="todo_completed">{{todolist.text}}</li>
+                    {% else %}
+                        <a href="#"><li>{{ todolist.text }}</li></a>
+                    {% endif %}
+                {% endfor %}
+                <br>
+                <li class="">Something End with this list</li>
+            </ul>
+        </div>
     </body>
 </html>

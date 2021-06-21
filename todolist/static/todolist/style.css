@@ -3,3 +3,6 @@ h1{
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
 }
+.todo_completed {
+    text-decoration-line: overline;
+}
